@@ -33,6 +33,9 @@ galaxy_info:
     - 6
     - 7
     - 8
+  - name: fedora
+    versions:
+    - 31
 
   galaxy_tags: []
     # List tags for your role here, one per line. A tag is a keyword that describes
