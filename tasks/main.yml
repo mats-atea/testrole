@@ -1,0 +1,9 @@
+---
+# tasks file for testrole
+- name: Print variable x
+  debug:
+    msg: Var x is {{ x }}
+
+- name: Print variable y
+  debug:
+    msg: Var y is {{ y }}
