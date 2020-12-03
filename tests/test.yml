@@ -1,5 +1,8 @@
 ---
-- hosts: localhost
-  remote_user: root
+- name: test galaxy roles
+  hosts: localhost
   roles:
-    - testrole
+    - mats_atea.testrole
+  vars:
+    x: 5
+    y: 7
